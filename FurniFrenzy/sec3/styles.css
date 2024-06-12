@@ -1,0 +1,97 @@
+/* body {
+    background-color: #f2cda0; font-family: 'Roboto', sans-serif; color: #8b2f29; padding: 80px;
+} */
+/* .h1 {
+    color: #8b2f29; font-family: 'Roboto', sans-serif; font-weight:bolder;   
+} */
+/* .lead {
+    font: 200; color: #424040; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+
+/* .product-card {
+    background-color: #f2cda0; padding: 20px; position: relative; transition: background-color 0.3s; border-radius: 10px;
+} */
+
+/* .product-card:hover {
+    background-color: #8b2f29;
+} */
+
+/* .product-card:hover {
+    color: #ffffff;
+} */
+.btn-custom {
+    background-color: #3b3a39; 
+    color: #ffffff; 
+    border: 1px solid #dfd9b6; 
+    margin-left: 30px;
+}
+.btn-circle {
+    position: relative; width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; overflow:visible;
+    /* color: #413f3f; */
+}
+
+/* .plus-sign {
+    font-size: 20px; font-weight: bold; color: white; visibility: visible; 
+    Hide the plus sign by default */
+     /* Smooth transition */
+     /* transition: visibility 0.3s, opacity 0.3s; */
+    /* opacity: 0;
+} */
+
+/* .btn-circle:hover .plus-sign {
+    visibility: visible; 
+    opacity: 1;
+} */
+
+
+
+/* .lead {
+    color: #8b2f29; 
+} */
+
+/* .btn-dark {
+    background-color: #8b2f29; border: none;
+} */
+
+/* .btn-dark:hover {
+    background-color: #3e3c3c;
+} */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.font-weight-bold {
+    color: #000; /* Text color for the chair descriptions */
+}
+
+.product-card {
+    background-color: #f2cda0;
+    padding: 20px;
+    position: relative;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 10px;
+}
+
+.product-card:hover {
+    background-color: #8b2f29;
+}
+
+.product-card:hover .font-weight-bold {
+    color: #ffffff;
+}
+
+.btn-circle {
+    display: none; position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); border-radius: 50%; width: 40px; height: 40px; font-size: 20px; line-height: 40px; padding: 0; text-align: center;
+}
+
+.product-card:hover .btn-circle {
+    display: block;
+}
+
+/* Apply hover effect */
+.hover-effect:hover {
+    transform: scale(1.2); /* Scale the image up by 5% on hover */
+    transition: transform 0.3s ease; /* Smooth transition for the effect */
+}

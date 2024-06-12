@@ -1,0 +1,30 @@
+body {
+    background-color: #8b2f29; color: white; 
+}
+.navbar{
+    border-bottom: 2px solid white;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 300 !important;
+}
+.navbar-brand {
+    color: white !important;
+    font-weight: 300 !important;
+    margin-left: 50px;
+}
+.navbar-brand .transparent {
+    color: white;
+    opacity: 0.6; 
+    font-weight: 500 !important;
+}
+/* .navbar-brand .transparent {
+    color: transparent;
+    -webkit-text-stroke: 1px white; 
+} */
+.navbar-nav .nav-link.active {
+    color: white !important; 
+}
+.navbar-toggler {
+    border-color: white !important; 
+}
